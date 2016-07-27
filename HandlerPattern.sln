@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlerPattern", "HandlerPattern\HandlerPattern.csproj", "{217EC80F-68AE-49FF-BE99-F9E3FB94C8D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlerPattern.Domain", "HandlerPattern\HandlerPattern.Domain.csproj", "{217EC80F-68AE-49FF-BE99-F9E3FB94C8D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HandlerPattern.Console", "HandlerPattern.Console\HandlerPattern.Console.csproj", "{661F9089-7E0A-4F5E-82EA-2FA1A3F1D0B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{217EC80F-68AE-49FF-BE99-F9E3FB94C8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{217EC80F-68AE-49FF-BE99-F9E3FB94C8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{217EC80F-68AE-49FF-BE99-F9E3FB94C8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661F9089-7E0A-4F5E-82EA-2FA1A3F1D0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661F9089-7E0A-4F5E-82EA-2FA1A3F1D0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661F9089-7E0A-4F5E-82EA-2FA1A3F1D0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661F9089-7E0A-4F5E-82EA-2FA1A3F1D0B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,7 @@
+bin/
+packages/
+obj/
+HandlerPattern/obj/
+HandlerPattern/bin/
+**/*.suo
+**/*.cache
